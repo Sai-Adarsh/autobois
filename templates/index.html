@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello world!</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='hello.css')}}" />
+</head>
+<body>
+<form action="running" method="post">
+    <input type="submit" value="Submit">
+    <p>{{ result}}</p>
+</form>
+</body>
+</html>
